@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Application>
+	<Window>
+        <Position x="" y=""/>
+        <Size w="" h=""/>
+        <View>
+            <Document />
+        </View>
+	</Window>
+	<Shortcuts>
+		<Shortcut name="Fullscreen" shortcut="Strg+Q"/>
+	</Shortcuts>
+	<Style>
+        <Theme name="" path=""/>
+        <Colors>
+
+        </Colors>
+	</Style>
+</Application>

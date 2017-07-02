@@ -1,0 +1,239 @@
+/**************************
+ * Author: Christoph Zorn *
+ * Official FixPad Theme  *
+ **************************/
+
+
+/** General Widgets **/
+QMainWindow
+{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+
+QPushButton
+{
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 15px;
+	max-height: 15px;
+
+	padding: 2px;
+	margin: 1px 0px 1px 0px;
+
+	border: 1px solid #333333;
+	border-radius: 1px;
+
+	color: #FFFFFF;
+    background-color: #121212;
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+				stop: 0 rgb(18, 18, 18), stop: 1 rgb(51, 51, 51));
+}
+
+QPushButton:hover
+{
+	border: 1px solid #770000;
+	border-radius: 2px;
+
+	background-color: #333333;
+	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+				stop: 0 rgb(51, 51, 51), stop: 1 rgb(18, 18, 18));
+}
+
+QLabel
+{
+	padding: 2px;
+
+	border-right: 1px solid #000000;
+
+	color: #FFFFFF;
+    background-color: #333333;
+}
+
+QCheckBox
+{
+	color: #FFFFFF;
+}
+
+QTextEdit
+{
+    outline: 0;
+    border: none;
+    color: #FFFFFF;
+    background-color: #121212;
+}
+
+/** Menu **/
+QMenuBar
+{
+	color: #FFFFFF;
+    background-color: #121212;
+}
+
+QMenuBar:item:selected
+{
+	background-color: #333333;
+}
+
+QMenu
+{
+	border: 1px solid #000000;
+	color: #FFFFFF;
+    background-color: #121212;
+}
+
+QMenu:item:selected
+{
+	color: #FFFFFF;
+    background-color: #333333;
+}
+
+/** Toolbar **/
+
+QToolBar
+{
+	border: 1px solid #000000;
+
+	color: #FFFFFF;
+    background-color: #121212;
+}
+
+QToolButton:hover
+{
+	border: 1px solid #333333;
+	background-color: rgba(85, 85, 85, 0.4);
+}
+
+/** Widget Collection **/
+
+QGroupBox
+{
+    margin-top: 0.5em;
+    border: 1px solid #FFFFFF;
+    border-radius: 1px;
+
+    color: #FFFFFF;
+    background-color: #121212;
+}
+
+QGroupBox::title
+{
+    subcontrol-origin: margin;
+    left: 10px;
+    padding: 0 3px 0 3px;
+}
+
+QTabWidget
+{
+	padding: 0px;
+	margin: 0px;
+	border: none;
+
+	color: #FFFFFF;
+	background-color: #121212;
+}
+
+QTabWidget::tab-bar
+{
+	border-bottom: none
+}
+
+QTabWidget::pane
+{
+	border: none;
+	border-top: 1px solid #000000;
+}
+
+QTabBar::tab
+{
+	min-width: 75px;
+	max-width: auto;
+	min-height: 20px;
+	max-height: 20px;
+
+	border-top: none;
+	border-bottom: 2px solid transparent;
+	border-right: 1px solid #000000;
+	border-radius: 0px 0px 0px 2px;
+
+	color: #000000;
+}
+
+QTabBar::tab:hover
+{
+	border-bottom: 2px solid #770000;
+}
+
+QTabBar::tab:selected
+{
+	border-bottom: 2px solid #FF9900;
+
+	color: #FFFFFF;
+	background-color: #0077FF;
+	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+				stop: 0 rgb(85, 85, 85), stop: 1 rgb(34, 34, 34));
+}
+
+QTabBar::tab:!selected
+{
+	color: #FFFFFF;
+	background-color: #333333;
+	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+				stop: 0 rgb(34, 34, 34), stop: 1 rgb(85, 85, 85));
+}
+
+QSplitter
+{
+	padding: 0px;
+    margin: 0px ;
+    border: none;
+
+    color: #121212;
+    background-color: #121212;
+}
+
+QSplitter:handle
+{
+    width: 0px;
+    border: 1.5px solid #770000;
+}
+
+QScrollBar:vertical
+{
+	width: 10px;
+	color: #FFFF00;
+	border-left: 2px solid rgba(0, 0, 0, 0);
+	border-right: 2px solid rgba(0, 0, 0, 0);
+	background: #121212;
+}
+
+QScrollBar:handle:vertical
+{
+	width: 8px;
+	height: 20px;
+	border: 2px solid rgba(0, 0, 0, 0);
+	border-radius: 2px;
+	color: #00FF00;
+	background: #0077FF;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical,
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical
+{
+	background: none;
+}
+
+QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical
+{
+	width: 0px;
+	height: 0px;
+	background: none;
+}
+
+QScrollArea
+{
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}

@@ -1,0 +1,50 @@
+QMainWindow
+{
+    padding: 0px;
+}
+
+QGroupBox
+{
+    margin-top: 0.5em;
+    border: 1px solid #000000;
+    border-radius: 1px;
+}
+
+QGroupBox::title
+{
+    subcontrol-origin: margin;
+    left: 10px;
+    padding: 0 3px 0 3px;
+}
+
+QSplitter
+{
+    margin: -10px 0px -10px 0px;
+}
+
+QSplitter:handle
+{
+    width: 0px;
+    border: 1.5px solid #222222;
+}
+
+QTextEdit
+{
+    outline: 0;
+    border: none;
+    color: #FFFFFF;
+    background-color: #222222;
+/*
+    font-family: Calibri;
+    font-size: 11pt;*/
+}
+
+QPlainTextEdit
+{
+    outline: 0;
+    color: #FFFFFF;
+    background-color: #222222;
+/*
+    font-family: Calibri;
+    font-size: 11pt;*/
+}
